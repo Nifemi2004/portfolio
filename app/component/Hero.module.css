@@ -1,0 +1,29 @@
+.heroPage{
+    margin: 0 15rem;
+}
+
+.heroPageContainer{
+    background-image: url('../../public/herobg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;  
+}
+
+.introduction{
+    display: flex;
+}
+
+.imageContainer{
+    width: fit-content;
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+}
+
+.nameAndStack{
+   display: flex;
+   flex-direction: column;
+}
